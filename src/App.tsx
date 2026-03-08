@@ -175,7 +175,7 @@ export default function App() {
           <div className="absolute top-0 left-3/4 w-[1px] h-full bg-gradient-to-b from-transparent via-white/30 to-transparent animate-light-line [animation-delay:3s]" />
         </div>
 
-        <motion.div style={{ opacity, scale }} className="max-w-5xl relative z-10 -mt-12 md:-mt-20">
+        <motion.div style={{ opacity, scale }} className="max-w-5xl relative z-10 -mt-8 md:-mt-12">
           <motion.span 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -188,7 +188,7 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className={`text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-bold leading-[1.1] md:leading-[0.9] tracking-tighter mb-8 ${isRtl ? 'font-arabic-display' : 'font-display'}`}
+            className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.2] md:leading-[1.1] tracking-tighter mb-8 ${isRtl ? 'font-arabic-display' : 'font-display'}`}
           >
             <span className="text-gradient-logo">{t.hero.title1}</span> <br />
             <span className="text-neutral-400/60">{t.hero.title2}</span> <br />
@@ -409,7 +409,7 @@ export default function App() {
       <section id="about" className="py-24 bg-black text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
           <div>
-            <h2 className={`text-4xl md:text-7xl font-bold tracking-tighter mb-8 ${isRtl ? 'font-arabic-display' : 'font-display'}`}>
+            <h2 className={`text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-8 ${isRtl ? 'font-arabic-display' : 'font-display'}`}>
               <span className="text-gradient-logo">{t.about.title}</span> <br />
               <span className="text-neutral-500 italic">{t.about.subtitle}</span> <span className="text-gradient-logo">{t.about.titleEnd}</span>
             </h2>
@@ -458,7 +458,7 @@ export default function App() {
           className="absolute top-0 left-0 w-96 h-96 bg-neutral-200/50 rounded-full blur-[100px] -z-10 animate-liquid-blob"
         />
         <div className="max-w-4xl mx-auto glass-card p-8 md:p-16 rounded-[2.5rem] md:rounded-[4rem] border-white/60">
-          <h2 className="text-4xl md:text-8xl font-bold tracking-tighter mb-12 text-gradient-logo">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-12 text-gradient-logo">
             {t.cta.title} <br />
             {t.cta.subtitle}
           </h2>
