@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "IBM Plex Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Cairo", sans-serif;
+  --font-arabic-display: "Cairo", sans-serif;
+  --font-arabic-sans: "IBM Plex Sans Arabic", sans-serif;
+  
+  --color-brand-black: #0a0a0a;
+  --color-brand-white: #f8f7ff;
+  --color-brand-accent: #6d28d9;
+  --color-lavender-light: #f3f0ff;
+  --color-lavender-glow: #e0d7ff;
+  
+  --gradient-logo: linear-gradient(135deg, #000000 0%, #434343 100%);
+}
+
+@layer base {
+  body {
+    @apply bg-brand-white text-brand-black antialiased;
+  }
+  
+  body[dir="ltr"] {
+    @apply font-sans;
+  }
+
+  body[dir="rtl"] {
+    @apply font-arabic-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+
+  [dir="ltr"] h1, [dir="ltr"] h2, [dir="ltr"] h3, [dir="ltr"] h4, [dir="ltr"] h5, [dir="ltr"] h6 {
+    @apply font-display;
+  }
+
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
+    @apply font-arabic-display;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/40 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_0_rgba(0,0,0,0.05)];
+  }
+  
+  .glass-card-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.2)];
+  }
+
+  @keyframes liquid-blob {
+    0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+    50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  }
+
+  .animate-liquid-blob {
+    animation: liquid-blob 10s ease-in-out infinite;
+  }
+
+  @keyframes light-line {
+    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { transform: translateX(200%) translateY(200%) rotate(45deg); opacity: 0; }
+  }
+
+  .animate-light-line {
+    animation: light-line 8s linear infinite;
+  }
+
+  .text-gradient-logo {
+    @apply bg-clip-text text-transparent bg-[image:var(--gradient-logo)] drop-shadow-[0_2px_10px_rgba(0,0,0,0.1)];
+  }
+}
