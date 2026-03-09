@@ -145,7 +145,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* Hero Section */}
-      <section ref={targetRef} className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 pt-20 md:pt-0 overflow-hidden">
+      <section ref={targetRef} className="relative min-h-screen flex flex-col px-6 md:px-12 lg:px-24 pt-32 md:pt-48 overflow-hidden">
         {/* Animated Liquid Blobs */}
         <motion.div 
           animate={{ 
@@ -175,7 +175,7 @@ export default function App() {
           <div className="absolute top-0 left-3/4 w-[1px] h-full bg-gradient-to-b from-transparent via-white/30 to-transparent animate-light-line [animation-delay:3s]" />
         </div>
 
-        <motion.div style={{ opacity, scale }} className="max-w-5xl relative z-10 -mt-8 md:-mt-12">
+        <motion.div style={{ opacity, scale }} className="max-w-5xl relative z-10">
           <motion.span 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -188,7 +188,7 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.2] md:leading-[1.1] tracking-tighter mb-8 ${isRtl ? 'font-arabic-display' : 'font-display'}`}
+            className={`text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-[1.2] md:leading-[1.1] tracking-tighter mb-8 ${isRtl ? 'font-arabic-display' : 'font-display'}`}
           >
             <span className="text-gradient-logo">{t.hero.title1}</span> <br />
             <span className="text-neutral-400/60">{t.hero.title2}</span> <br />
