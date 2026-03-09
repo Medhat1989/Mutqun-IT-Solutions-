@@ -7,6 +7,7 @@ export const translations = {
       locations: "Locations",
       about: "About",
       startProject: "Start a Project",
+      tagline: "For IT solutions",
     },
     hero: {
       tagline: "Digital Excellence Redefined",
@@ -84,11 +85,11 @@ export const translations = {
           speech: "With a visionary approach to digital transformation, Khalid leads Mutqun with a commitment to absolute excellence. His leadership in the Riyad office focuses on bridging the gap between traditional business values and cutting-edge technological innovation, ensuring our clients stay at the forefront of the Middle Eastern market.",
         },
         {
-          name: "Mithat Kalil",
-          role: "CTO - London Office",
+          name: "Medhat Khalil",
+          role: "Aviation Tech Expert",
           photo: "https://i.ibb.co/Y9JhtLK/PROFILE.png",
           phone: "+447438647944",
-          speech: "Mithat is the technical heartbeat of Mutqun. Operating from our London hub, he oversees the architectural integrity of every project. His expertise in scalable SaaS and complex CRM systems ensures that our technical solutions are not just functional, but future-proof and globally competitive.",
+          speech: "An expert in digital Transformation for the aviation sector, Medhat is leads MUTQUN technology transformation with an absolute commitment to innovation. Medhat works to bridge the gap between Aviation traditional technology strategies and AI cutting-edge ensuring our partners have an unbeatable digital presence and are always at the forefront of search results across the aviation sector.",
         },
         {
           name: "Raghda Ahmed",
@@ -146,6 +147,7 @@ export const translations = {
       locations: "مواقعنا",
       about: "عن متقن",
       startProject: "ابدأ مشروعك",
+      tagline: "متقن لتقنية المعلومات",
     },
     hero: {
       tagline: "إعادة تعريف التميز الرقمي",
@@ -220,14 +222,14 @@ export const translations = {
           role: "الرئيس التنفيذي - مكتب الرياض",
           photo: "https://i.ibb.co/1GJGgbKL/HUSSAM1.jpg",
           phone: "+966 50 418 0509",
-          speech: "بنهج رؤيوي للتحول الرقمي، يقود خالد متقن بالتزام بالتميز المطلق. يركز قيادته في مكتب الرياض على سد الفجوة بين قيم الأعمال التقليدية والابتكار التكنولوجي المتطور، مما يضمن بقاء عملائنا في طليعة السوق الشرق أوسطي.",
+          speech: "يقود خالد متقن التحول الرقمي في مكتب الرياض بالتزامٍ تام بالمعايير العالمية. يسعى من خلال قيادته إلى الربط بين تقاليد الأعمال والابتكار التقني، لضمان ريادة عملائنا المستمرة في أسواق الشرق الأوسط.",
         },
         {
-          name: "متحت خليل",
-          role: "المدير التقني - مكتب لندن",
+          name: "مدحت خليل",
+          role: "خبير تقنى بقطاع الطيران - مكتب لندن",
           photo: "https://i.ibb.co/Y9JhtLK/PROFILE.png",
           phone: "+447438647944",
-          speech: "متحت هو النبض التقني لمتقن. من خلال عمله من مركزنا في لندن، يشرف على النزاهة المعمارية لكل مشروع. تضمن خبرته في أنظمة SaaS القابلة للتوسع وأنظمة CRM المعقدة أن حلولنا التقنية ليست وظيفية فحسب، بل جاهزة للمستقبل وتنافسية عالمياً.",
+          speech: "خبيرٌ في الظهور الرقمي لقطاع الطيران؛ يقود مدحت متقن التحول التقني بالتزامٍ مطلق بالابتكار.يعمل مدحت على سد الفجوة بين استراتيجيات الأعمال التقليدية فى قطاع الطيران وخوارزميات الذكاء اللاصطناعى المتطورة، ليضمن لشركائنا تواجداً رقمياً لا يُنافس وييسر العمليات التشغيلية فى قطاع الطيران",
         },
         {
           name: "رغدة أحمد",
