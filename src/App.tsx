@@ -16,7 +16,7 @@ import {
 import { useState, useRef, useEffect } from "react";
 import { translations } from "./translations";
 
-const LOGO_URL = "https://i.ibb.co/dw21V75n/Black-and-White-Simple-Modern-Quirky-Letter-M-Logo-1-removebg-preview.png";
+const LOGO_URL = "https://i.ibb.co/qFJHcp71/mutqun-logo-removebg-preview.png";
 
 type Language = "en" | "ar";
 
@@ -84,7 +84,7 @@ export default function App() {
       {/* Navigation */}
       <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 md:px-6 py-2 md:py-4 transition-all duration-500 ${scrolled ? 'bg-white/20 backdrop-blur-md border-b border-white/30 shadow-2xl' : 'bg-transparent'}`}>
         <div className="flex items-center gap-2 md:gap-3 group cursor-pointer">
-          <img src={LOGO_URL} alt="Mutqun Logo" className="h-12 md:h-20 w-auto invert group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
+          <img src={LOGO_URL} alt="Mutqun Logo" className="h-12 md:h-20 w-auto group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
           <div className="flex flex-col">
             <span className="text-lg md:text-2xl font-bold uppercase tracking-tighter text-gradient-logo group-hover:brightness-125 transition-all duration-300 leading-none">Mutqun</span>
             <div className="flex flex-col mt-0.5 md:mt-1">
@@ -479,7 +479,7 @@ export default function App() {
       <footer className="py-8 md:py-12 px-6 border-t border-white/30 bg-white/20 backdrop-blur-md">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-2 text-center md:text-left">
-            <img src={LOGO_URL} alt="Mutqun Logo" className="h-20 md:h-32 w-auto invert group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
+            <img src={LOGO_URL} alt="Mutqun Logo" className="h-20 md:h-32 w-auto group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
             <div className="flex flex-col items-center md:items-start">
               <span className="text-xl md:text-3xl font-display font-bold uppercase tracking-tighter text-gradient-logo leading-none">Mutqun</span>
               <div className="flex flex-col mt-1">
