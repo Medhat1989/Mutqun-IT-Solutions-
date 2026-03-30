@@ -78,11 +78,11 @@ export const translations = {
       label: "02 / Team",
       members: [
         {
-          name: "Khalid Abu El Kheir",
+          name: "Hussam Abu El Kheir",
           role: "CEO - Riyad Office",
           photo: "https://i.ibb.co/1GJGgbKL/HUSSAM1.jpg",
           phone: "+966 50 418 0509",
-          speech: "With a visionary approach to digital transformation, Khalid leads Mutqun with a commitment to absolute excellence. His leadership in the Riyad office focuses on bridging the gap between traditional business values and cutting-edge technological innovation, ensuring our clients stay at the forefront of the Middle Eastern market.",
+          speech: "With a visionary approach to digital transformation, Hussam leads Mutqun with a commitment to absolute excellence. His leadership in the Riyad office focuses on bridging the gap between traditional business values and cutting-edge technological innovation, ensuring our clients stay at the forefront of the Middle Eastern market.",
         },
         {
           name: "Medhat Khalil",
@@ -218,11 +218,11 @@ export const translations = {
       label: "02 / الفريق",
       members: [
         {
-          name: "خالد أبو الخير",
+          name: "حسام أبو الخير",
           role: "الرئيس التنفيذي - مكتب الرياض",
           photo: "https://i.ibb.co/1GJGgbKL/HUSSAM1.jpg",
           phone: "+966 50 418 0509",
-          speech: "يقود خالد متقن التحول الرقمي في مكتب الرياض بالتزامٍ تام بالمعايير العالمية. يسعى من خلال قيادته إلى الربط بين تقاليد الأعمال والابتكار التقني، لضمان ريادة عملائنا المستمرة في أسواق الشرق الأوسط.",
+          speech: "يقود حسام متقن التحول الرقمي في مكتب الرياض بالتزامٍ تام بالمعايير العالمية. يسعى من خلال قيادته إلى الربط بين تقاليد الأعمال والابتكار التقني، لضمان ريادة عملائنا المستمرة في أسواق الشرق الأوسط.",
         },
         {
           name: "مدحت خليل",
